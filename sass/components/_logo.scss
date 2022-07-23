@@ -1,0 +1,16 @@
+
+.logo {
+    @include font(Raleway, 700, 26px, 1.2, none);
+}
+
+.logo-fst-part {
+    color: var(--logo-first-part-and-btn);
+}
+
+.logo-part--dark {
+    color: var(--snd-part-logo);
+}
+
+.logo-part--light {
+    color: #FFFFFF;
+}

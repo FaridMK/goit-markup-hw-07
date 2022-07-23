@@ -1,0 +1,63 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+p,
+h1,
+h2,
+h3,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration-line: none;
+}
+
+.logo-fst-part {
+  color: var(--logo-first-part-and-btn);
+}
+
+.logo-part--dark {
+  color: var(--snd-part-logo);
+}
+
+.logo-part--light {
+  color: #FFFFFF;
+}/*# sourceMappingURL=main.css.map */
