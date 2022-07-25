@@ -1,0 +1,17 @@
+.teamlist {
+    background-color: $second-background;
+    padding-top: 94px;
+    padding-bottom: 94px;
+&__members {
+    display: flex;
+    align-items: center;}
+&__title {
+    color: $second-text-color;
+    @include font(null, 700, 36px, 1.17, none, 0.03em);
+    text-align: center;
+    margin-bottom: 50px;}
+&__option {
+    margin-right: 30px;
+&:last-child {
+        margin-right: 0px;}}
+}

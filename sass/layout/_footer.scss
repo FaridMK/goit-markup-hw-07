@@ -1,0 +1,26 @@
+.ftr {
+    background-color: $ftr-and-hero-background;
+    padding-top: 60px;
+    padding-bottom: 60px;
+.container {
+    display: flex;
+    align-items: baseline;}
+}
+
+
+.address {
+    color: $main-background-color;
+    margin-top: 27px;
+    @include font('Roboto', 400, 14px, 1.71, none, 0.03em);
+    font-style: normal;
+&-list {
+    margin-bottom: 9px;
+    &:last-child {
+        margin-bottom: 0px;}
+    &__link {
+        color: rgba(255, 255, 255, 0.6);
+        @include font('Roboto', 400, 14px, 1.71, none, 0.03em);
+        font-style: normal;}}
+ul {
+margin-top: 9px;}
+}

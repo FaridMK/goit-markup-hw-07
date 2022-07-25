@@ -1,0 +1,34 @@
+.filter {
+    padding-top: 94px;
+    padding-bottom: 94px;
+&-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;}
+}
+
+.filter-buttons__option  {
+    margin-right: 8px;
+&:last-child {
+    margin-right: 0px;}
+}
+
+.btn-hover {
+    background-color: $second-background;
+    color: $main-text-color;
+    color: $second-text-color;
+    @include font('Roboto', 500, 16px, 1.62, none, 0.03em);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 4px;
+    border: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+    background-color: $logo-first-part-and-btn;
+    color: $main-background-color;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
+}

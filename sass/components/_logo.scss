@@ -1,16 +1,16 @@
 
 .logo {
-    @include font(Raleway, 700, 26px, 1.2, none);
+    @include font(Raleway, 700, 26px, 1.2, none, none);
 }
 
 .logo-fst-part {
-    color: var(--logo-first-part-and-btn);
+    color: $logo-first-part-and-btn;
 }
 
 .logo-part--dark {
-    color: var(--snd-part-logo);
+    color: $snd-part-logo;
 }
 
 .logo-part--light {
-    color: #FFFFFF;
+    color: $main-background-color;
 }

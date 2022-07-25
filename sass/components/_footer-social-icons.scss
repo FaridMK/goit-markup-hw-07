@@ -1,0 +1,37 @@
+.ftr-social {
+    margin-left: 70px;
+&-title {
+    display: block;
+    @include font('Roboto', 700, 14px, 1.14, none, 0.03em);
+    text-transform: uppercase;
+    color: $main-background-color;
+    margin-bottom: 20px;}
+&-list {
+    display: flex;
+    align-items: center;}
+}
+
+.ftr-social-list__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #FFFFFF;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+    background-color: $logo-first-part-and-btn;
+    fill: $main-background-color;}
+}
+
+.ftr-social-list__option {
+    margin-right: 10px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+&:last-child {
+    margin-right: 0px;}
+}

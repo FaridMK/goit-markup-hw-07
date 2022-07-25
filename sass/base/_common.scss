@@ -7,3 +7,21 @@ body {
 img {
     display: block;
 }
+
+.header {
+    display: flex;
+    border-bottom: 1px solid #ECECEC;
+
+& .container {
+    display: flex;
+    align-items: center;}
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+}

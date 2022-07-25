@@ -18,28 +18,28 @@
 <body>
 
     <header class="header">
-        <div class="container navigation">
+        <div class="container">
 
             <nav class="nav">
                 <a class="logo-fst-part logo" href="./index.html">Web<span class="logo-part--dark">Studio</span>
                 </a>
-
+            
                 <ul class="site-nav list">
-                    <li class="items"> <a class="link">Студия</a></li>
-                    <li class="items"> <a href="./portfolio.html" class="current link">Портфолио</a></li>
-                    <li class="items"> <a href="" class="link">Контакты</a></li>
+                    <li class="site-nav__items"> <a class="link">Студия</a></li>
+                    <li class="site-nav__items"> <a href="./portfolio.html" class="current link">Портфолио</a></li>
+                    <li class="site-nav__items"> <a href="" class="link">Контакты</a></li>
                 </ul>
             </nav>
 
 
             <ul class="contacts list">
-                <li class="items"> <a href="mailto:info@devstudio.com" class="link">
+                <li class="contacts__items"> <a href="mailto:info@devstudio.com" class="link">
                         <svg class="hdr-icons" width="16" height="12">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com</a>
                 </li>
-                <li class="items"> <a href="tel:+380961111111" class="link">
+                <li class="contacts__items"> <a href="tel:+380961111111" class="link">
                         <svg class="hdr-icons" width="10" height="12">
                             <use href="./images/icons.svg#icon-smartphone">
                             </use>
@@ -52,49 +52,49 @@
 
     <main>
 
-        <section class="section-filter">
-            <div class="container filter-section">
+        <section class="filter">
+            <div class="container">
 
                 <h1 class="visually-hidden">Filter</h1>
 
-                <ul class="portfolio-filter list">
+                <ul class="filter-buttons list">
 
-                    <li><button type="button" class="btn-hover">Все</button></li>
-                    <li><button type="button" class="btn-hover">Веб-сайты</button></li>
-                    <li><button type="button" class="btn-hover">Приложения</button></li>
-                    <li><button type="button" class="btn-hover">Дизайн</button></li>
-                    <li><button type="button" class="btn-hover">Маркетинг</button></li>
+                    <li class="filter-buttons__option"><button type="button" class="btn-hover">Все</button></li>
+                    <li class="filter-buttons__option"><button type="button" class="btn-hover">Веб-сайты</button></li>
+                    <li class="filter-buttons__option"><button type="button" class="btn-hover">Приложения</button></li>
+                    <li class="filter-buttons__option"><button type="button" class="btn-hover">Дизайн</button></li>
+                    <li class="filter-buttons__option"><button type="button" class="btn-hover">Маркетинг</button></li>
 
                 </ul>
 
                 <ul class="filter-result list">
 
-                    <li class="result-items">
-                        <a class="result-link" href="">
+                    <li class="filter-result-item">
+                        <a class="filter-result-item__link" href="">
 
                             <div class="result-hover">
                                 <img src="./images/p-1.jpg" alt="Технокряк" width="370" />
-                                <div class="hover-action">
-                                    <p class="hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+                                <div class="result-hover__action">
+                                    <p class="result-hover__text">Ресурс предлагает комплексные предложения с разным уровнем
                                         функционала и сервисов. Все это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
 
                             <div class="result-card">
-                                <h2 class="card-name">Технокряк</h2>
-                                <p class="card-disc">Веб-сайт</p>
+                                <h2 class="result-card__name">Технокряк</h2>
+                                <p class="result-card__discription">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="result-items">
-                        <a class="result-link" href="">
+                    <li class="filter-result-item">
+                        <a class="filter-result-item__link" href="">
 
                             <div class="result-hover">
                                 <img src="./images/p-2.jpg" alt="Постер New Orlean vs Golden Star" width="370" />
-                                <div class="hover-action">
-                                    <p class="hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+                                <div class="result-hover__action">
+                                    <p class="result-hover__text">Ресурс предлагает комплексные предложения с разным уровнем
                                         функционала и сервисов. Все это
                                         позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
@@ -102,19 +102,19 @@
                             </div>
 
                             <div class="result-card">
-                                <h2 class="card-name">Постер New Orlean vs Golden Star</h2>
-                                <p class="card-disc">Дизайн</p>
+                                <h2 class="result-card__name">Постер New Orlean vs Golden Star</h2>
+                                <p class="result-card__discription">Дизайн</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="result-items">
-                        <a class="result-link" href="">
+                    <li class="filter-result-item">
+                        <a class="filter-result-item__link" href="">
 
                             <div class="result-hover">
                                 <img src="./images/p-3.jpg" alt="Ресторан Seafood" width="370" />
-                                <div class="hover-action">
-                                    <p class="hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+                                <div class="result-hover__action">
+                                    <p class="result-hover__text">Ресурс предлагает комплексные предложения с разным уровнем
                                         функционала и сервисов. Все это
                                         позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
@@ -122,19 +122,19 @@
                             </div>
 
                             <div class="result-card">
-                                <h2 class="card-name">Ресторан Seafood</h2>
-                                <p class="card-disc">Приложение</p>
+                                <h2 class="result-card__name">Ресторан Seafood</h2>
+                                <p class="result-card__discription">Приложение</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="result-items">
-                        <a class="result-link" href="">
+                    <li class="filter-result-item">
+                        <a class="filter-result-item__link" href="">
 
                             <div class="result-hover">
                                 <img src="./images/p-4.jpg" alt="Проект Prime" width="370" />
-                                <div class="hover-action">
-                                    <p class="hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+                                <div class="result-hover__action">
+                                    <p class="result-hover__text">Ресурс предлагает комплексные предложения с разным уровнем
                                         функционала и сервисов. Все это
                                         позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
@@ -142,103 +142,103 @@
                             </div>
 
                             <div class="result-card">
-                                <h2 class="card-name">Проект Prime</h2>
-                                <p class="card-disc">Маркетинг</p>
+                                <h2 class="result-card__name">Проект Prime</h2>
+                                <p class="result-card__discription">Маркетинг</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="result-items">
-                        <a class="result-link" href="">
+                    <li class="filter-result-item">
+                        <a class="filter-result-item__link" href="">
                             <div class="result-hover">
 
                                 <img src="./images/p-5.jpg" alt="Проект Boxes" width="370" />
-                                <div class="hover-action">
-                                    <p class="hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+                                <div class="result-hover__action">
+                                    <p class="result-hover__text">Ресурс предлагает комплексные предложения с разным уровнем
                                         функционала и сервисов. Все это
                                         позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                             <div class="result-card">
-                                <h2 class="card-name">Проект Boxes</h2>
-                                <p class="card-disc">Приложение</p>
+                                <h2 class="result-card__name">Проект Boxes</h2>
+                                <p class="result-card__discription">Приложение</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="result-items">
-                        <a class="result-link" href="">
+                    <li class="filter-result-item">
+                        <a class="filter-result-item__link" href="">
                             <div class="result-hover">
 
                                 <img src="./images/p-6.jpg" alt="Inspiration has no Borders" width="370" />
-                                <div class="hover-action">
-                                    <p class="hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+                                <div class="result-hover__action">
+                                    <p class="result-hover__text">Ресурс предлагает комплексные предложения с разным уровнем
                                         функционала и сервисов. Все это
                                         позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                             <div class="result-card">
-                                <h2 class="card-name">Inspiration has no Borders</h2>
-                                <p class="card-disc">Веб-сайт</p>
+                                <h2 class="result-card__name">Inspiration has no Borders</h2>
+                                <p class="result-card__discription">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="result-items">
-                        <a class="result-link" href="">
+                    <li class="filter-result-item">
+                        <a class="filter-result-item__link" href="">
                             <div class="result-hover">
 
                                 <img src="./images/p-7.jpg" alt="Издание Limited Edition" width="370" />
-                                <div class="hover-action">
-                                    <p class="hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+                                <div class="result-hover__action">
+                                    <p class="result-hover__text">Ресурс предлагает комплексные предложения с разным уровнем
                                         функционала и сервисов. Все это
                                         позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                             <div class="result-card">
-                                <h2 class="card-name">Издание Limited Edition</h2>
-                                <p class="card-disc">Дизайн</p>
+                                <h2 class="result-card__name">Издание Limited Edition</h2>
+                                <p class="result-card__discription">Дизайн</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="result-items">
-                        <a class="result-link" href="">
+                    <li class="filter-result-item">
+                        <a class="filter-result-item__link" href="">
                             <div class="result-hover">
 
                                 <img src="./images/p-8.jpg" alt="Проект LAB" width="370" />
-                                <div class="hover-action">
-                                    <p class="hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+                                <div class="result-hover__action">
+                                    <p class="result-hover__text">Ресурс предлагает комплексные предложения с разным уровнем
                                         функционала и сервисов. Все это
                                         позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                             <div class="result-card">
-                                <h2 class="card-name">Проект LAB</h2>
-                                <p class="card-disc">Маркетинг</p>
+                                <h2 class="result-card__name">Проект LAB</h2>
+                                <p class="result-card__discription">Маркетинг</p>
                             </div>
                         </a>
                     </li>
 
-                    <li class="result-items">
-                        <a class="result-link" href="">
+                    <li class="filter-result-item">
+                        <a class="filter-result-item__link" href="">
                             <div class="result-hover">
 
                                 <img src="./images/p-9.jpg" alt="Growing Business" width="370" />
-                                <div class="hover-action">
-                                    <p class="hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+                                <div class="result-hover__action">
+                                    <p class="result-hover__text">Ресурс предлагает комплексные предложения с разным уровнем
                                         функционала и сервисов. Все это
                                         позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                             <div class="result-card">
-                                <h2 class="card-name">Growing Business</h2>
-                                <p class="card-disc">Приложение</p>
+                                <h2 class="result-card__name">Growing Business</h2>
+                                <p class="cresult-card__discription">Приложение</p>
                             </div>
                         </a>
                     </li>
@@ -251,18 +251,18 @@
 
     <footer class="ftr">
 
-        <div class="container ftr-cont">
+        <div class="container">
 
-            <div class="ftr-logo-container">
+            <div>
                 <a class="logo-fst-part logo" href="/">Web<span class="logo-part--light">Studio</span></a>
                 <address class="address list">
                     г. Киев, пр-т Леси Украинки, 26
-                    <ul class="address-ftr list">
-                        <li>
-                            <a href="mailto:info@example.com" class="ftr-link">info@example.com</a>
+                    <ul class="list">
+                        <li class="address-list">
+                            <a href="mailto:info@example.com" class="address-list__link">info@example.com</a>
                         </li>
-                        <li>
-                            <a href="tel:+380991111111">+38 099 111 11 11</a>
+                        <li class="address-list">
+                            <a href="tel:+380991111111" class="address-list__link">+38 099 111 11 11</a>
                         </li>
                     </ul>
                 </address>
@@ -271,38 +271,38 @@
             <div class="ftr-social">
                 <p class="ftr-social-title">Присоединяйтесь</p>
                 <ul class="ftr-social-list list">
-                    <li class="ftr-soc-li"> <a href="www.instagram.com" class="ftr-soc-links">
-                            <svg class="social-icons" width="20" height="20">
+                    <li class="ftr-social-list__option"> <a href="www.instagram.com" class="ftr-social-list__link">
+                            <svg width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram">
                                 </use>
                             </svg></a>
                     </li>
-                    <li class="ftr-soc-li"> <a href="www.twitter.com" class="ftr-soc-links">
-                            <svg class="social-icons" width="20" height="20">
+                    <li class="ftr-social-list__option"> <a href="www.twitter.com" class="ftr-social-list__link">
+                            <svg width="20" height="20">
                                 <use href="./images/icons.svg#icon-twitter">
                                 </use>
                             </svg></a></li>
-                    <li class="ftr-soc-li"> <a href="www.facebook.com" class="ftr-soc-links">
-                            <svg class="social-icons" width="20" height="20">
+                    <li class="ftr-social-list__option"> <a href="www.facebook.com" class="ftr-social-list__link">
+                            <svg width="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook">
                                 </use>
                             </svg></a></li>
-                    <li class="ftr-soc-li"> <a href="www.linkedin.com" class="ftr-soc-links">
-                            <svg class="social-icons" width="20" height="20">
+                    <li class="ftr-social-list__option"> <a href="www.linkedin.com" class="ftr-social-list__link">
+                            <svg width="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin">
                                 </use>
                             </svg></a></li>
                 </ul>
             </div>
             <div class="signup">
-                <p class="signup-title">Подпишитесь на рассылку</p>
+                <p class="signup__title">Подпишитесь на рассылку</p>
 
-                <input type="email" name="email" class="signup-input" placeholder="Email" />
+                <input type="email" name="email" class="signup__input" placeholder="Email" />
 
                 <button type="submit" class="signup-button">
-                    <span class="signup-btn-wrd">
-                        <span class="signup-btn-title">Подписаться</span>
-                        <svg class="signup-icon" width="24" height="24">
+                    <span class="signup-button__wrd">
+                        <span class="signup-button__title">Подписаться</span>
+                        <svg class="signup-button__icon" width="24" height="24">
                             <use href="./images/icons.svg#icon-icon-send">
                             </use>
                         </svg>

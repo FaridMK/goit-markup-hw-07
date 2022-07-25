@@ -1,0 +1,62 @@
+.signup {
+    margin-left: 93px;
+&__title {
+    width: 219px;
+    height: 16px;
+    margin-bottom: 20px;
+    @include font('Roboto', 700, 14px, 1.14, none, 0.03em);
+    text-transform: uppercase;
+    color: $main-background-color;}
+&__input {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow (0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6);}
+&__input::placeholder {
+    width: 47px;
+    height: 20px;
+    @include font('Roboto', 400, 16px, 1.25, none, 0.03em);
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);}
+}
+
+.signup-button {
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    background: $logo-first-part-and-btn;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 0;
+    border: none;
+&__title {
+    width: 109px;
+    height: 30px;
+    @include font('Roboto', 700, 16px, 1.875, none, 00.06em);
+    text-align: center;
+    color: $main-background-color;}
+&__wrd {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+&__icon {
+    fill: #fff;
+    margin-left: 10px;}
+}
+
+
+.signup__input {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow (0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6);
+}
